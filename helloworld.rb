@@ -22,4 +22,4 @@ print("Searchterm: ")
 term = gets.chomp
 system "curl #{link} | html2text | grep #{term}"
 
-puts "hello"
+
